@@ -1,0 +1,33 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Alice",
+            "email": "alice@example.com"
+        },
+        {
+            "id": 2,
+            "name": "Bob",
+            "email": "bob@example.com"
+        },
+        {
+            "id": 3,
+            "name": "Charlie",
+            "email": "charlie@example.com"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "Hello World",
+            "content": "This is my first post!",
+            "authorId": 1
+        },
+        {
+            "id": 2,
+            "title": "JSON Server Test",
+            "content": "Testing a simple JSON API.",
+            "authorId": 2
+        }
+    ]
+}
