@@ -138,7 +138,7 @@
           },
           "metacognition_robotics": {
             "description": "Investigating higher order thinking in robotic agents, and how perception and actuation affect cognition.",
-            "title": "Robotics",
+            "title": "Metacognition in Robotics",
             "url": "/metacognition_robotics"
           }
         },
