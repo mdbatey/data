@@ -1,17 +1,17 @@
-{
+ {
     "projects": {
       "agent_survey": {
         "description": "AI Agents have recently gained interest due to the inherent representational capability of large language models and the generality of language. We're reviewing SoTA in AI Agents, and pulling on ideas from other areas of AI and Cognitive Science to inform new kinds of designs of AI agents, with key capability increases.",
         "links": {
-          "github_link": {
+          "discord_link": {
             "description": "Join the AI Agent Survey Discord Channel",
             "title": "Discord",
             "url": "https://discord.com/channels/755517485096108153/1189726186297905164"
           },
-          "roadmap_link": {
-            "description": "Learn more about the AI Agent Survey Roadmap",
+          "roadmap": {
+            "description": "Learn More about the AI agent Survey Roadmap",
             "title": "Roadmap",
-            "url": "https://docs.google.com/document/d/12g2Hur3grBOE24oaJHDSJ2KOj-CO7xqj"
+            "url": "https://docs.google.com/document/d/12g2Hur3grBOE24oaJHDSJ2KOj-CO7xqj/edit"
           }
         },
         "title": "AI Agent Survey"
@@ -36,25 +36,20 @@
         "description": "Metacognition is crucial as it allows agents to evaluate and optimize their decision-making processes, a key step toward achieving greater autonomy and adaptability—paving the way for advancements toward Artificial General Intelligence (AGI). However, there has not been as much research on metacognition in embodied multimodal agents in recent years. By drawing inspiration from human metacognitive capabilities, we aim to define methods of benchmarking similar capabilities in embodied multimodal agents. This will pave the way for eventually developing these capabilities in these agents.",
         "links": {
           "discord_link": {
-            "description": "Join the Metacognition in Robotics Discord Channel",
+            "description": "Join the Metacognition in Robotics Discrod Channel",
             "title": "Discord",
             "url": "https://discord.com/channels/755517485096108153/1262117499999092837"
           }
         },
         "title": "Metacognition in Robotics"
       },
-      "multimodal_action_model": {
-        "description": "We’re building large scale 'generalist' models capable of doing dozens of tasks across numerous modalities, starting with language, images, RL and control tasks. Check out the links below to learn more!",
+      "multimodal_action_models": {
+        "description": "We’re building large scale \"generalist\" models capable of doing dozens of tasks across numerous modalities, starting with language, images, RL and control tasks. Check out the links below to learn more!",
         "links": {
           "discord_link": {
             "description": "Join the Multimodal Action Models project Discord channel",
             "title": "Discord",
             "url": "https://discord.com/channels/755517485096108153/1104825004811624488?ref=manifoldrg.com"
-          },
-          "github_link": {
-            "description": "Explore Multimodal Action Models project on Github",
-            "title": "Github",
-            "url": "https://github.com/ManifoldRG/NEKO?ref=manifoldrg.com"
           },
           "roadmap_link": {
             "description": "Learn more about the Multimodal Action Models project roadmap",
@@ -65,10 +60,10 @@
         "title": "Multimodal Action Models"
       },
       "multinet": {
-        "description": "As part of the Neko project, we're building a dataset and benchmark to make it easier for the community to train and assess generalist models.",
+        "description": "As part of the Neko project, we're bulding a dataset and benchmark to make it easier for the community to train and asess generalist models.",
         "links": {
           "discord_link": {
-            "description": "Join the Multinet Discord Channel",
+            "description": "join the Multinet Discord Channel",
             "title": "Discord",
             "url": "https://discord.com/channels/755517485096108153/1230314669223317544"
           },
@@ -80,7 +75,7 @@
         },
         "title": "Multinet"
       },
-      "os-tool": {
+      "os_tool": {
         "description": "One of the key capabilities for AI agents to do meaningful work is to be able to use digital tools and software. We're building new kinds of open source action models capable of using APIs, and are leveraging generalist models as the foundation.",
         "title": "OS Tool Use Action Models",
         "links": {
@@ -99,21 +94,21 @@
         "projects": {
           "agent_survey": {
             "description": "Survey and Perspective Paper on Opportunities in AI Agents",
-            "title": "AI Agent Survey",
-            "url": "/agent-survey"
+            "title": "AI Agent survey",
+            "url": "/agent_survey"
           },
-          "os-tool": {
+          "os_tool": {
             "description": "We're building new kinds of action models capable of using digital tools.",
             "title": "OS Tool Use Action Models",
-            "url": "/os-tool"
+            "url": "/os_tool"
           }
         },
         "title": "Autonomous AI Agents"
       },
       "generative_bio": {
-        "description": "We’re exploring the application of foundation class models to biological problems, including drug discovery, feature detection, protein mapping, and more. Currently in an exploratory capacity, stay tuned for project details. Follow our progress on Discord.",
-        "label": "Generative Bio",
-        "title": "Generative Biology"
+        "title": "Generative Biology",
+        "description": "We’re exploring the application of foundation class models to biological problems, including drug discovery, feature detection, protein mapping, and more. Currently in an exploratory capacity, stay tuned for project details. Follow our progress on Discord",
+        "label": "Generative Bio"
       },
       "multimodality": {
         "description": "We are developing and testing new model architectures & network primitives to achieve massively multimodal, “Generalist” systems capable of doing useful things across images, natural language, and the physical and digital world.",
@@ -122,12 +117,12 @@
           "multimodal_action_models": {
             "description": "Large scale, generalist architectures capable of tasks across Images, Text, and Control Domains.",
             "title": "Multimodal Action Models",
-            "url": "/multimodal-action-models"
+            "url": "/multimodal_action_models"
           },
           "multinet": {
             "description": "We're building new kinds of action models capable of using digital tools.",
             "title": "Multinet",
-            "url": "/multinet"
+            "url": "projects/multinet"
           }
         },
         "title": "Multimodality & “Generalist” Systems"
@@ -139,12 +134,12 @@
           "cooperative_robotics": {
             "description": "Enabling multi-agent systems to cooperate on tasks, with an emphasis on real time adaptation to out-of-distribution changes.",
             "title": "Cooperative Robotics",
-            "url": "/cooperative-robotics"
+            "url": "/cooperative_robotics"
           },
-          "metacognition-robotics": {
+          "metacognition_robotics": {
             "description": "Investigating higher order thinking in robotic agents, and how perception and actuation affect cognition.",
             "title": "Robotics",
-            "url": "/metacognition-robotics"
+            "url": "/metacognition_robotics"
           }
         },
         "title": "Robotics"
