@@ -1,6 +1,6 @@
 {
   "projects": {
-    "agent-survey": {
+    "agent_survey": {
       "description": "AI Agents have recently gained interest due to the inherent representational capability of large language models and the generality of language. We're reviewing SoTA in AI Agents, and pulling on ideas from other areas of AI and Cognitive Science to inform new kinds of designs of AI agents, with key capability increases.",
       "links": {
         "github_link": {
